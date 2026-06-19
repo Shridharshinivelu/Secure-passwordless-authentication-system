@@ -1,0 +1,14 @@
+.device-manager{
+  padding:30px;
+}
+
+.device-manager ul{
+  list-style:none;
+}
+
+.device-manager li{
+  background:white;
+  margin:10px 0;
+  padding:15px;
+  border-radius:10px;
+}

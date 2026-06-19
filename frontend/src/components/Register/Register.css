@@ -1,0 +1,23 @@
+.register-card{
+  width:500px;
+  margin:auto;
+  background:#1e293b;
+  padding:40px;
+  border-radius:20px;
+}
+
+.register-card input{
+  width:100%;
+  padding:15px;
+  margin:15px 0;
+  border-radius:10px;
+}
+
+.register-card button{
+  width:100%;
+  padding:15px;
+  background:#00c2ff;
+  color:white;
+  border:none;
+  border-radius:10px;
+}

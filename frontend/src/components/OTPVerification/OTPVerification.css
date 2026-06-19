@@ -1,0 +1,125 @@
+.otp-page {
+  min-height: 100vh;
+  background:
+    linear-gradient(
+      135deg,
+      #071330,
+      #0f172a
+    );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.otp-card {
+  width: 500px;
+  padding: 40px;
+  border-radius: 25px;
+  background:
+    rgba(
+      15,
+      23,
+      42,
+      0.9
+    );
+  backdrop-filter: blur(12px);
+  box-shadow:
+    0 0 40px
+    rgba(
+      0,
+      194,
+      255,
+      0.3
+    );
+  text-align: center;
+}
+
+.shield {
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  color: #94a3b8;
+  margin-bottom: 25px;
+}
+
+.email-box {
+  background: #1e293b;
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 25px;
+}
+
+.email-box span {
+  display: block;
+  color: #00c2ff;
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+.otp-container {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.otp-container input {
+  width: 55px;
+  height: 60px;
+  text-align: center;
+  font-size: 24px;
+  border-radius: 12px;
+  border: 2px solid #00c2ff;
+  background: #0f172a;
+  color: white;
+}
+
+.otp-container input:focus {
+  outline: none;
+  box-shadow:
+    0 0 10px
+    #00c2ff;
+}
+
+.timer {
+  margin-top: 25px;
+  color: #00c2ff;
+  font-size: 18px;
+}
+
+.verify-btn {
+  width: 100%;
+  padding: 15px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 12px;
+  background:
+    linear-gradient(
+      90deg,
+      #00c2ff,
+      #2563eb
+    );
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.resend-btn {
+  width: 100%;
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 12px;
+  border: 1px solid #00c2ff;
+  background: transparent;
+  color: #00c2ff;
+  cursor: pointer;
+}
+
+.security-note {
+  margin-top: 25px;
+  color: #94a3b8;
+  font-size: 14px;
+}

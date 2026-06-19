@@ -1,0 +1,53 @@
+.logs{
+
+  margin-left:280px;
+
+  min-height:100vh;
+
+  background:#071330;
+
+  color:white;
+
+  padding:40px;
+}
+
+.logs h1{
+
+  margin-bottom:30px;
+
+  font-size:38px;
+}
+
+table{
+
+  width:100%;
+
+  border-collapse:collapse;
+
+  background:#0f172a;
+
+  border-radius:15px;
+
+  overflow:hidden;
+}
+
+th{
+
+  background:#1976ff;
+
+  padding:18px;
+
+  text-align:left;
+}
+
+td{
+
+  padding:18px;
+
+  border-bottom:1px solid #1e293b;
+}
+
+tr:hover{
+
+  background:#16213e;
+}

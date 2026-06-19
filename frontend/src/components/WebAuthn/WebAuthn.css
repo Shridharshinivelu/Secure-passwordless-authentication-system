@@ -1,0 +1,18 @@
+.passkey-card{
+  width:500px;
+  margin:auto;
+  background:#1e293b;
+  padding:40px;
+  border-radius:20px;
+  color:white;
+  text-align:center;
+}
+
+.passkey-card button{
+  margin-top:20px;
+  padding:15px 30px;
+  background:#00c2ff;
+  color:white;
+  border:none;
+  border-radius:10px;
+}

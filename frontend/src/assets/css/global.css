@@ -1,0 +1,16 @@
+body{
+  margin:0;
+  background:#0f172a;
+  color:white;
+  font-family:'Segoe UI',sans-serif;
+}
+
+*{
+  box-sizing:border-box;
+}
+
+.card{
+  background:#1e293b;
+  border-radius:15px;
+  padding:20px;
+}
